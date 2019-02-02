@@ -1,0 +1,47 @@
+.side-bar {
+  background-color: rgb(26, 168, 168);
+  height: 800px;
+  width: 300px;
+}
+.image-fluid {
+ float: center;
+
+}
+.main-page {
+  text-align: center;
+  align-content: flex-start;
+ 
+
+}
+.h1 {
+  font-size: 12pt;
+  padding-left: 280px;
+  
+}
+.h2 {
+  font-size: 11pt;
+  padding-left: 280px;
+ 
+}
+.h3 {
+  font-size: 6pt;
+  text-align: right;
+  padding-left: 280px;
+  
+}
+#navbar {
+  width: 100%;
+  height: 80 px;
+}
+#navbar.li{
+  width:200px;
+list-style: none;
+float: left;
+}
+li>a{
+  display: block;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  font-size: 14pt;
+}
