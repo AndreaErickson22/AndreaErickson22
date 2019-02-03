@@ -1,11 +1,22 @@
-.side-bar {
-  background-color: rgb(26, 168, 168);
-  height: 1100px;
-  width: 300px;
-  padding-top: 100px;
-  padding-left: 45px;
-
+body {
+  background-color: rgb(231, 225, 225);
 }
+.side-bar{
+  background-color: rgb(43, 205, 226);
+  height: 1100px;
+  width: 400px;
+  position: absolute;
+  position: fixed;
+}
+
+li>a {
+  display: block;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  font-size: 22pt;
+}
+
 ul {
   list-style-type: none;
   font-family: 'News Cycle', sans-serif bold;
@@ -13,18 +24,20 @@ ul {
   padding-right: 80px;
   padding-top: 40px;
 }
-  
-.image-fluid {
- float: center;
-padding:100px;
+
+img{
+float: center;
+margin-top: 85px;
+margin-left: 85px;
+
 
 }
 .main-page {
   text-align: center;
   align-items: flex-start;
-  background-color: rgb(204, 19, 149);
   justify-content: flex-start;
-  margin: 0px 20px 20px 50px;
+  margin: 200px 200px 80px 50px;
+  height: 4000px;
 
  }
 .h1 {
@@ -46,20 +59,4 @@ padding:100px;
   text-align: right;
   padding-left: 200px;
   
-}
-#navbar {
-  width: 100%;
-  height: 80 px;
-}
-#navbar.li {
-width:200px;
-list-style: none;
-float: left;
-}
-li>a {
-  display: block;
-  color: white;
-  line-height: 60px;
-  text-align: center;
-  font-size: 22pt;
 }
