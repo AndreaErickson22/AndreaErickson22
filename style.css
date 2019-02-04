@@ -2,7 +2,7 @@ body {
   background-color: rgb(231, 225, 225);
 }
 .side-bar{
-  background-color: rgb(43, 205, 226);
+  background-color: #52ABB1;
   height: 1100px;
   width: 400px;
   position: absolute;
@@ -22,41 +22,57 @@ ul {
   font-family: 'News Cycle', sans-serif bold;
   font-size: 20pt;
   padding-right: 80px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
-img{
+.img-selfie{
 float: center;
-margin-top: 85px;
+margin-top: 150px;
 margin-left: 85px;
-
-
 }
+
 .main-page {
   text-align: center;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 200px 200px 80px 50px;
-  height: 4000px;
-
+  margin-top: 300px;
+  height: 400px;
  }
-.h1 {
-  font-family: 'News Cycle', sans-serif, bold;
-  font-size: 16pt;
-  margin: 0px 0px 0px 10px;
+h1 {
+  font-family: 'News Cycle', sans-serif, extra bold;
+  font-size: 50pt;
+ padding-bottom: 20px;
+ padding-top: 40px;
   color: rgb(26, 168, 168);
-  
 }
-.h2 {
-  font-family: 'News Cycle', sans-serif;
-  font-size: 11pt;
- padding-left: 200px;
- 
+h2 {
+  font-family: 'News Cycle', sans-serif, bold;
+  font-size: 25pt;
+  padding-top: 30px;
+
 }
-.h3 {
+h3 {
   font-family: 'News Cycle', sans-serif;
-  font-size: 6pt;
-  text-align: right;
-  padding-left: 200px;
-  
+  font-size: 20pt;  
+}
+h4 {
+  font-family: 'News Cycle', sans-serif, bold;
+  font-size: 20pt;  
+}
+
+
+.work-history {
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-center;
+  margin: 500px 20px 200px 20px;
+  height: 800px;
+  padding-left: 400px;
+}
+.sm-icons {
+margin: 100px 20px 20px 20px;
+  align-content: center;
+}
+.social-media-icons {
+  padding-left: 80px;
 }
